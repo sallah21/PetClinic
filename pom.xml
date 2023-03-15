@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-di</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>sfg-di</name>
 	<description>Dependency Injection examples</description>
 
@@ -54,12 +54,27 @@
 						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-scm-plugin</artifactId>
+				</plugin>
+
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.1</version>
+					<configuration>
+						<source>1.7</source>
+						<target>1.7</target>
+						<fork>true</fork>
+						<executable>C:\Program Files\Java\jdk-19\bin\javac</executable>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
 	<scm>
 		<developerConnection>
-			scm:git:https:git@github.com:sallah21/PetClinic.git
+			scm:git:git@github.com:sallah21/PetClinic.git
 		</developerConnection>
 	  <tag>sfg-di-0.0.1</tag>
   </scm>
