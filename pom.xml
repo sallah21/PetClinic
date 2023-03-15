@@ -76,6 +76,6 @@
 		<developerConnection>
 			scm:git:https://github.com/sallah21/PetClinic.git
 		</developerConnection>
-	  <tag>sfg-di-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 </project>
