@@ -76,6 +76,6 @@
 		<developerConnection>
 			scm:git:https://github.com/sallah21/PetClinic.git
 		</developerConnection>
-	  <tag>HEAD</tag>
+
   </scm>
 </project>
