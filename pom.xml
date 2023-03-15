@@ -74,7 +74,7 @@
 	</build>
 	<scm>
 		<developerConnection>
-			scm:git:git@github.com:sallah21/PetClinic.git
+			scm:git:https:git@github.com:sallah21/PetClinic.git
 		</developerConnection>
 	  <tag>sfg-di-0.0.1</tag>
   </scm>
