@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-di</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>sfg-di</name>
 	<description>Dependency Injection examples</description>
 
@@ -74,8 +74,8 @@
 	</build>
 	<scm>
 		<developerConnection>
-			scm:git:https://github.com/sallah21/PetClinic.git
+			scm:git:https://github.com:sallah21/PetClinic.git
 		</developerConnection>
-	  <tag>sfg-di-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 </project>
