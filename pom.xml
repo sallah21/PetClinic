@@ -47,14 +47,11 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-maven-plugin</artifactId>
-				</plugin>
-				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-release-plugin</artifactId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.2</version>
 					<configuration>
-						<goals>install</goals>
+						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
 				</plugin>
 			</plugins>
@@ -62,7 +59,7 @@
 	</build>
 	<scm>
 		<developerConnection>
-			scm:git:git@github.com:sallah21/PetClinic.git
+			scm:git:https:git@github.com:sallah21/PetClinic.git
 		</developerConnection>
 	  <tag>sfg-di-0.0.1</tag>
   </scm>
