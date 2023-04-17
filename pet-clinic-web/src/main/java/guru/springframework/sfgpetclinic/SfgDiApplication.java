@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SfgDiApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(SfgDiApplication.class, args);
+
 		SpringApplication.run(SfgDiApplication.class, args);
 	}
 
