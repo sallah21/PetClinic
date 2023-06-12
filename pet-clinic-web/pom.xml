@@ -15,6 +15,8 @@
         <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
         <webjars-jquery.version>2.2.4</webjars-jquery.version>
         <wro4j.version>1.8.0</wro4j.version>
+        <start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication
+        </start-class>
     </properties>
     <dependencies>
         <!-- webjars -->
@@ -71,6 +73,14 @@
         </dependency>
     </dependencies>
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <plugins>
             <plugin>
                 <groupId>ro.isdc.wro4j</groupId>
