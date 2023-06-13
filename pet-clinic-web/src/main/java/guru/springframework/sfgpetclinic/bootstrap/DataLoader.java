@@ -63,6 +63,7 @@ public class DataLoader  implements CommandLineRunner {
         kotFiony.setBirthDate(LocalDate.now());
         kotFiony.setPetType(petType2);
         owner2.getPets().add(kotFiony);
+
         ownerService.save(owner2);
 
 
